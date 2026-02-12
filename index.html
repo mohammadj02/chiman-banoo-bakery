@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" dir="ltr" id="htmlRoot">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Chiman Banoo Bakery | Persian Bakery in North Vancouver</title>
+  <meta name="description" content="Chiman Banoo Bakery — fresh Persian-style breads and pastries in North Vancouver. 1374 Marine Dr, North Vancouver, BC V7P 1T4. Call (604) 341-8400. Open 3:00 AM to 9:00 PM." />
+  <meta name="keywords" content="Chiman Banoo Bakery, Persian bakery, Iranian bakery, bread, pastries, North Vancouver, Marine Drive, sangak, barbari, lavash" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#ff6fb2" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chiman Banoo Bakery | Persian Bakery in North Vancouver" />
+  <meta property="og:description" content="Fresh Persian-style breads and pastries. Open 3:00 AM – 9:00 PM. Call (604) 341-8400." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+
+  <!-- Local Business Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Bakery",
+    "name":"Chiman Banoo Bakery",
+    "telephone":"+1-604-341-8400",
+    "priceRange":"$1–10",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"1374 Marine Dr",
+      "addressLocality":"North Vancouver",
+      "addressRegion":"BC",
+      "postalCode":"V7P 1T4",
+      "addressCountry":"CA"
+    },
+    "openingHoursSpecification":[
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens":"03:00",
+        "closes":"21:00"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="orb o1"></span>
+    <span class="orb o2"></span>
+    <span class="orb o3"></span>
+  </div>
+
+  <header class="topbar" id="top">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <div class="brand__logo">
+          <img src="assets/images (5).jfif" alt="Chiman Banoo Bakery logo"
+               onerror="this.style.display='none'; this.parentElement.classList.add('brand__logo--fallback');" />
+          <span class="brand__logoFallback">CB</span>
+        </div>
+
+        <div class="brand__text">
+          <div class="brand__name" data-i18n="brandName">Chiman Banoo Bakery</div>
+          <div class="brand__tag" data-i18n="brandTag">Persian Bakery • North Vancouver</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#specials" data-i18n="navPopular">Popular</a>
+        <a href="#location" data-i18n="navLocation">Location</a>
+        <a href="#hours" data-i18n="navHours">Hours</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="topActions">
+        <div class="langToggle" role="group" aria-label="Language toggle">
+          <button class="langBtn active" type="button" data-lang="en">EN</button>
+          <button class="langBtn" type="button" data-lang="fa">FA</button>
+        </div>
+
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobileNav" id="mobileNav" aria-hidden="true">
+      <a href="#specials" data-i18n="navPopular">Popular</a>
+      <a href="#location" data-i18n="navLocation">Location</a>
+      <a href="#hours" data-i18n="navHours">Hours</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+      <a class="mobileNav__cta" href="tel:+16043418400" data-i18n="callNow">Call Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg">
+      <source src="assets/AQPWq3WWeLEO0-DOMhF2GiFRdaojedAXz234BVHYuQ1fY-L9NeNTWCBH6R1_wtUkLY-P9-TRkMjugm8TCrACBUet9NvzKIoy2msihSE.mp4" type="video/mp4" />
+    </video>
+
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="wrap hero__content">
+      <div class="hero__left">
+        <div class="chip">
+          <span class="chip__dot"></span>
+          <span data-i18n="chipText">Fresh • Fast • Fair</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span data-i18n="heroTitleA">Persian style bakery </span>
+          <span class="hero__accent" data-i18n="heroTitleB">delicious, clean, and premium.</span>
+        </h1>
+
+        <p class="hero__sub" data-i18n="heroSub">
+          Local store selling Persian-style bread in the heart of Marine Drive. Here, we don’t just sell bread we give people love and good health.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="tel:+16043418400" data-i18n="callNow">Call Now</a>
+
+          <a class="btn btn--outline" target="_blank" rel="noopener"
+             href="https://www.google.com/maps?q=1374+Marine+Dr,+North+Vancouver,+BC+V7P+1T4"
+             data-i18n="getDirections">
+            Get Directions
+          </a>
+
+          <button class="btn btn--soft" id="copyAddressBtn" type="button" data-i18n="copyAddress">
+            Copy Address
+          </button>
+        </div>
+
+        <div class="quickInfo">
+          <div class="qi">
+            <div class="qi__k" data-i18n="labelAddress">Address</div>
+            <div class="qi__v">1374 Marine Dr, North Vancouver, BC V7P 1T4</div>
+          </div>
+          <div class="qi">
+            <div class="qi__k" data-i18n="labelPhone">Phone</div>
+            <div class="qi__v">(604) 341-8400</div>
+          </div>
+          <div class="qi">
+            <div class="qi__k" data-i18n="labelHours">Hours</div>
+            <div class="qi__v" data-i18n="hoursValue">Open 3:00 AM • Closes 9:00 PM</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="videoStack" aria-label="Bakery video">
+          <div class="videoCard">
+            <video class="videoCard__video" autoplay muted loop playsinline preload="metadata">
+              <source src="assets/viedo 2.mp4" type="video/mp4" />
+            </video>
+            <div class="videoCard__shine" aria-hidden="true"></div>
+          </div>
+
+          <div class="tileBadge"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollHint" aria-hidden="true">
+      <span data-i18n="scroll">Scroll</span>
+      <div class="scrollHint__line"></div>
+    </div>
+  </section>
+
+  <section class="section" id="specials">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-i18n="popularTitle">Popular Picks</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__media"><img src="assets/Barbari-Bread_10-500x500.jpg" alt="Fresh breads"></div>
+          <h3 data-i18n="p1Title">Barbari bread</h3>
+          <p data-i18n="p1Text">Daily baked breads with the perfect crust and soft inside.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__media"><img src="assets/taftoon bread.jfif" alt="Pastries"></div>
+          <h3 data-i18n="p2Title">Pastries</h3>
+          <p data-i18n="p2Text">Soft taftoon bread that hit different with tea or coffee.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__media"><img src="assets/traditional Iranian, whole-wheat sourdough flatbread.jpg" alt="Special items"></div>
+          <h3 data-i18n="p3Title">Sangak bread</h3>
+          <p data-i18n="p3Text">Traditional Iranian, whole wheat sourdough flatbread.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__media"><img src="assets/nini barbai .png" alt="Family stop"></div>
+          <h3 data-i18n="p4Title">Nini barbari</h3>
+          <p data-i18n="p4Text">a smaller, individual-sized version of the traditional Iranian yeast-leavened flatbread</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="location">
+    <div class="wrap two">
+      <div>
+        <div class="head">
+          <h2 data-i18n="locationTitle">Location</h2>
+          <p data-i18n="locationSub">Easy to find on Marine Drive — quick stop, quick service.</p>
+        </div>
+
+        <div class="info">
+          <div class="row">
+            <div class="k" data-i18n="labelAddress">Address</div>
+            <div class="v">1374 Marine Dr, North Vancouver, BC V7P 1T4</div>
+          </div>
+          <div class="row">
+            <div class="k" data-i18n="labelPhone">Phone</div>
+            <div class="v"><a href="tel:+16043418400">(604) 341-8400</a></div>
+          </div>
+          <div class="row">
+            <div class="k" data-i18n="labelDirections">Directions</div>
+            <div class="v">
+              <a target="_blank" rel="noopener"
+                 href="https://www.google.com/maps?q=1374+Marine+Dr,+North+Vancouver,+BC+V7P+1T4"
+                 data-i18n="openInMaps">
+                Open in Google Maps →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="tel:+16043418400" data-i18n="callNow">Call Now</a>
+          <a class="btn btn--outline" target="_blank" rel="noopener"
+             href="https://www.google.com/maps?q=1374+Marine+Dr,+North+Vancouver,+BC+V7P+1T4"
+             data-i18n="getDirections">
+            Get Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          title="Map to Chiman Banoo Bakery"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=1374%20Marine%20Dr%2C%20North%20Vancouver%2C%20BC%20V7P%201T4&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="hours">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-i18n="hoursTitle">Hours</h2>
+        <p data-i18n="hoursSub">We open early and stay open late.</p>
+      </div>
+
+      <div class="hours">
+        <div class="hours__card">
+          <div class="hours__label" data-i18n="daily">Daily</div>
+          <div class="hours__big" data-i18n="hoursRange">3:00 AM – 9:00 PM</div>
+          <div class="hours__sub" data-i18n="hoursValue">Open 3:00 AM • Closes 9:00 PM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-i18n="contactTitle">Contact</h2>
+        <p data-i18n="contactSub">Call us or get directions — that’s it.</p>
+      </div>
+
+      <div class="contact">
+        <div class="contact__card">
+          <div class="row">
+            <div class="k" data-i18n="labelPhone">Phone</div>
+            <div class="v"><a href="tel:+16043418400">(604) 341-8400</a></div>
+          </div>
+          <div class="row">
+            <div class="k" data-i18n="labelAddress">Address</div>
+            <div class="v">1374 Marine Dr, North Vancouver, BC V7P 1T4</div>
+          </div>
+          <div class="row">
+            <div class="k" data-i18n="labelHours">Hours</div>
+            <div class="v" data-i18n="hoursRange">3:00 AM – 9:00 PM</div>
+          </div>
+
+          <div class="cta">
+            <a class="btn btn--primary" href="tel:+16043418400" data-i18n="callNow">Call Now</a>
+            <a class="btn btn--outline" target="_blank" rel="noopener"
+               href="https://www.google.com/maps?q=1374+Marine+Dr,+North+Vancouver,+BC+V7P+1T4"
+               data-i18n="getDirections">
+              Get Directions
+            </a>
+            <button class="btn btn--soft" id="copyAddressBtn2" type="button" data-i18n="copyAddress">Copy Address</button>
+          </div>
+        </div>
+
+        <div class="contact__photos" aria-label="More photos">
+          <div class="mini"><img src="assets/contact us.jfif" alt="Photo A"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <div class="footer__brand" data-i18n="brandName">Chiman Banoo Bakery</div>
+        <div class="footer__small" data-i18n="footerLine">
+          1374 Marine Dr, North Vancouver, BC V7P 1T4 • (604) 341-8400 • 3:00 AM – 9:00 PM
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="#top" data-i18n="navTop">Top</a>
+        <a href="#location" data-i18n="navLocation">Location</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
